@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+.heading{
+    background-color: rgba(43, 122, 226, 0.658);
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 10vmin; */
+}
+.heading h1{
+    font-size: 7vmin;
+}
+.images{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12vmin;
+    margin-top: 4vmin;
+}
+.images img{
+    width: 20vmin;
+    border-radius: 20px;
+    
+}
+.images #paper:hover{
+    cursor: pointer;
+    box-shadow: 0px 0 15px rgb(228, 48, 159);
+}
+.images #rock:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(61, 127, 165);
+}
+.images #scissor:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(41, 124, 172);
+}
+.result{
+    
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    
+}
+.result p{
+    display: inline;
+    /* background-color: rgb(0, 255, 21); */
+    padding: 3vmin;
+    border-radius: 10px;
+    font-size: 4vmin;
+
+}
+/* .Yourscoremsg{
+    background-color: green;
+    display: inline;
+    padding: 1.5vmin;
+}
+.ComScoremsg{
+    background-color: red;
+    display: inline;
+    padding: 1.5vmin;
+}
+.draw{
+    background-color: grey;
+    display: inline;
+    padding: 1.5vmin;
+} */
+
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: chartreuse; */
+    font-size: 5vmin;
+    margin: 0 10vmin;
+
+    
+}
